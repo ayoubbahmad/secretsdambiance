@@ -1,10 +1,23 @@
-import createMiddleware from 'next-intl/middleware';
+import { NextRequest, NextResponse } from 'next/server';
 
-export default createMiddleware({
-  locales: ['fr', 'ar'],
-  defaultLocale: 'fr',
-});
+const locales = ['fr', 'ar'];
+const defaultLocale = 'fr';
+
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  // Check if the path already has a locale prefix
+  const hasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+
+  if (!hasLocale) {
+    return NextResponse.redirect(
+      new URL(`/${defaultLocale}${pathname}`, request.url)
+    );
+  }
+}
 
 export const config = {
-  matcher: ['/((?!api|_next|.*\\..*).*)'],
+  matcher: ['/((?!api|_next|.*\\..*).*)', '/'],
 };
