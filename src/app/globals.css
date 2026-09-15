@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-script: var(--font-great-vibes);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-cream text-brand-black font-sans antialiased;
+  }
+
+  [dir='rtl'] body {
+    font-family: var(--font-cairo), sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-script {
+    font-family: var(--font-great-vibes), cursive;
+  }
+
+  .font-ar {
+    font-family: var(--font-cairo), sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

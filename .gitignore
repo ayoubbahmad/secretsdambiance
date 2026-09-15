@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# OS
+.DS_Store
+
+# Env files
+.env*
+!.env.example
+
+# Resources (source assets, not needed in repo)
+resources/

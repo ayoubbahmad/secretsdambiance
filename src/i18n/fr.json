@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "catalogue": "Catalogue",
+    "about": "À Propos",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+  "hero": {
+    "tagline": "LA TOUCHE QUI FAIT LA DIFFÉRENCE",
+    "subtitle": "Location de mobilier & décoration pour vos événements",
+    "cta": "Découvrir la collection",
+    "scroll": "Défiler"
+  },
+  "categories": {
+    "title": "Nos Collections",
+    "subtitle": "Des pièces d'exception pour sublimer vos espaces",
+    "canapes": "Canapés",
+    "fauteuils": "Fauteuils",
+    "tables": "Tables",
+    "chaises": "Chaises",
+    "lumineux": "Accessoires Lumineux",
+    "objets": "Objets Décoratifs",
+    "explore": "Explorer la collection"
+  },
+  "featured": {
+    "title": "Nouveautés 2026",
+    "subtitle": "Notre sélection de pièces signature",
+    "viewAll": "Voir tout le catalogue",
+    "viewProduct": "Voir les détails"
+  },
+  "why": {
+    "title": "Pourquoi choisir Touch ?",
+    "s1_title": "Sur Mesure",
+    "s1_desc": "Chaque espace est unique. Nous adaptons notre sélection à vos besoins, votre style et votre budget.",
+    "s2_title": "Qualité Premium",
+    "s2_desc": "Plus de 500 références soigneusement choisies pour leur esthétique et leur durabilité.",
+    "s3_title": "Scénographie Complète",
+    "s3_desc": "De la conception à l'installation, notre équipe crée des ambiances qui marquent les esprits."
+  },
+  "catalogue": {
+    "title": "Catalogue 2026",
+    "subtitle": "Découvrez l'ensemble de notre collection",
+    "all": "Tout",
+    "reference": "Réf.",
+    "dimensions": "Dimensions",
+    "material": "Matière",
+    "requestQuote": "Demander un devis",
+    "backCatalogue": "← Retour au catalogue",
+    "products": "produits"
+  },
+  "product": {
+    "category": "Catégorie",
+    "reference": "Référence",
+    "dimensions": "Dimensions",
+    "material": "Matière",
+    "quoteTitle": "Intéressé par ce produit ?",
+    "quoteDesc": "Contactez-nous pour obtenir un devis personnalisé et vérifier la disponibilité.",
+    "quoteBtn": "Demander un devis",
+    "related": "Articles similaires",
+    "viewCatalogue": "Voir le catalogue"
+  },
+  "about": {
+    "hero_title": "Notre Histoire",
+    "hero_subtitle": "Touch by Secrets D'Ambiance — L'art de créer des atmosphères uniques",
+    "s1_title": "Qui sommes-nous ?",
+    "s1_text": "Touch by Secrets D'Ambiance est une entreprise spécialisée dans la location de mobilier et de décoration pour événements. Fondée avec la passion de créer des espaces exceptionnels, nous mettons notre expertise au service de vos projets les plus ambitieux — mariages, conférences, lancements de produits, soirées privées.",
+    "s2_title": "Notre Mission",
+    "s2_text": "Transformer chaque espace en une scène de vie unique. Aménagement sur mesure, scénographie & mise en ambiance : Touch apporte la touche qui fait la différence, du premier rendez-vous à l'installation finale.",
+    "values_title": "Nos Valeurs",
+    "v1": "Excellence",
+    "v2": "Créativité",
+    "v3": "Engagement",
+    "v4": "Innovation",
+    "stat1_num": "500+",
+    "stat1_label": "Références disponibles",
+    "stat2_num": "200+",
+    "stat2_label": "Événements réalisés",
+    "stat3_num": "100%",
+    "stat3_label": "Sur mesure"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Notre équipe est à votre écoute pour concrétiser votre projet",
+    "phone": "Téléphone",
+    "email": "Email",
+    "web": "Site Web",
+    "form_name": "Votre nom",
+    "form_email": "Votre email",
+    "form_event": "Type d'événement",
+    "form_date": "Date de l'événement",
+    "form_message": "Votre message",
+    "form_send": "Envoyer le message",
+    "address": "Maroc",
+    "hours": "Disponible 7j/7"
+  },
+  "footer": {
+    "tagline": "L'art de créer des atmosphères uniques",
+    "links": "Liens rapides",
+    "follow": "Suivez-nous",
+    "rights": "Tous droits réservés",
+    "by": "par Secrets D'Ambiance",
+    "rental": "Location de Mobilier Pour Événements"
+  }
+}
